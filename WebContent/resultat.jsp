@@ -8,11 +8,11 @@
 </head>
 <body>
 <%-- <% List<ImgToWeb> myList = (ArrayList<ItemObj>) request.getAttribute("list"); %> --%>
-
-
-
+je suis la
+ 
+je suis la 
 <c:forEach items="${imgRes}" var="imgRes">
-    <c:out value="${imgRes } "/><br />
-  </c:forEach>
+    <c:out value="${imgRes.nom } "/><br />
+  </c:forEach> 
 </body>
 </html>

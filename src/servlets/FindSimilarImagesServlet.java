@@ -55,7 +55,7 @@ public class FindSimilarImagesServlet extends HttpServlet {
                   final PrintWriter writer = response.getWriter();
 
                    
-       ObjetImage image;; 
+       ObjetImage image; 
          Database sitdb=new  Database();
 		try {
 			 
