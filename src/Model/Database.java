@@ -1,4 +1,4 @@
-package servlets;
+package Model;
 
 
 import java.security.AccessController;
@@ -10,9 +10,6 @@ import com.salah.Outils.ObjetImage;
 
  
 import com.salah.Outils.Utiles;
-
-import Model.ImgToWeb;
-import Model.Signatures;
 
 public class  Database {
 	private ArrayList<ImgToWeb> imageListName=new ArrayList<ImgToWeb>() ;
