@@ -22,8 +22,11 @@ public class ChargerRepertoire {
 		for (i = 0; i < listefichiers.length; i++) {
 			if (listefichiers[i].endsWith(".jpg") == true) {
 				ObjetImage objetImage = new ObjetImage(cheminDuDossier+"\\"+listefichiers[i]);
-				ChargerImage ci = new ChargerImage(objetImage);
+				//ChargerImage ci = new ChargerImage(objetImage);
+				
 			}
 		}
+		
+		
 	}
 }

@@ -1,7 +1,7 @@
 package com.salah.Outils;
 
 public class CalculSimilarite {
-
+//lkjhkjljkhlkjhlkhlklkn
 /*	public CalculSimilarite(ObjetImage objetImage1, ObjetImage objetImage2) {
 		super();
 	}

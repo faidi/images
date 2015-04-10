@@ -36,7 +36,7 @@ public class FileUploadDBServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request,
             HttpServletResponse response) throws ServletException, IOException {
         // gets values of text fields
-        String nom = request.getParameter("nom");
+        			String nom = request.getParameter("nom");
                     
                   final Part filePart = request.getPart("image");
                   final String fileName =getFileName(filePart);
@@ -52,8 +52,7 @@ public class FileUploadDBServlet extends HttpServlet {
           Database sitdb=new  Database();
 		try { 
 			  
-			out = new FileOutputStream(new File(destinationDir + File.separator
-                + fileName));
+			out = new FileOutputStream(new File(destinationDir + File.separator+ fileName));
 			
 			filecontent = filePart.getInputStream();
 

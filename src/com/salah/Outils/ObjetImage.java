@@ -31,7 +31,7 @@ public class ObjetImage{
 			image = ImageIO.read(new File(pathImage));
 			fileName = Utiles.getFileName(pathImage);
 			//ajouté
-			signature = new Signatures(this.tabRg, this.tabBy, this.tabWb);
+			
 		
 		
 		} catch (IOException e) {
@@ -39,7 +39,7 @@ public class ObjetImage{
 			e.printStackTrace();
 		}
 		remplirTableRGB(image);
-		//affiche();
+		signature = new Signatures(this.tabRg, this.tabBy, this.tabWb);//affiche();
 	}
 
 	/**
